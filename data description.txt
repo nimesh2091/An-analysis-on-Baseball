@@ -1,0 +1,24 @@
+most of the variables are self-explanatory, if you follow Baseball
+
+yearID -> season
+lgID -> league ID (NL,AL etc.)
+stint -> if more than 1 : got traded, played in multiple teams
+G -> games
+AB -> at bats, number of times went to bat
+R -> runs
+H -> hits
+2B, 3B, HR -> doubles, triples, Home-run
+BB -> walk
+IBB -> Intentional Walk
+SB -> Stolen Bases
+RBI -> Runs Batted In
+CS -> number of times caught stealing
+SO -> Strike-out
+HBP -> Hit-by-Pitch
+SH -> Sacrifice Bunt
+SF -> Sacrifice Fly
+GIDP -> Ground Into Double Play
+PA (plate appearances) -> AB+BB+HBP+SH+SF
+Average = H/AB
+OBP (on base percentage) = (H + BB + HBP) / (AB + BB + HBP + SF)
+
